@@ -345,8 +345,8 @@ ul {
     height: 80px;
     border-bottom: 10px solid var(--main-color);
     border-right: 10px solid var(--main-color);
-    bottom: -37px;
-    right: 20px;
+    bottom: 15px;
+    right: 38px;
 }
 
 .home-img::before {
@@ -356,8 +356,8 @@ ul {
     height: 80px;
     border-top: 10px solid var(--main-color);
     border-left: 10px solid var(--main-color);
-    top: -40px;
-    right: 350px;
+    top: 8px;
+    right: 330px;
 }
 
 h3.hello {
@@ -533,6 +533,10 @@ h3.my-profession {
     padding-bottom: 50px;
 }
 
+.about .about-content .timeline .timeline-item ul {
+    list-style-type: disc;
+}
+
 .about .about-content .timeline .timeline-item:last-child {
     padding-bottom: 0px;
 }
@@ -558,7 +562,7 @@ h3.my-profession {
 }
 
 .about .about-content .timeline .timeline-date {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     margin-bottom: 12px;
     color: var(--text-black-700);
@@ -571,17 +575,28 @@ h3.my-profession {
 .about .about-content .timeline .timeline-title {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     text-transform: capitalize;
     color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-title-1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    text-transform: normal;
+    color: var(--text-black-900);
+    /* font-style: italic; */
 }
 
 .about .about-content .timeline .timeline-text {
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     color: var(--text-black-700);
+    font-style: italic;
 }
+
 
 /* Service Section */
 
