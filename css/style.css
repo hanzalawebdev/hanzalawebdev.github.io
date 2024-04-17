@@ -345,8 +345,8 @@ ul {
     height: 80px;
     border-bottom: 10px solid var(--main-color);
     border-right: 10px solid var(--main-color);
-    bottom: 15px;
-    right: 38px;
+    bottom: -20px;
+    right: 5px
 }
 
 .home-img::before {
@@ -356,8 +356,8 @@ ul {
     height: 80px;
     border-top: 10px solid var(--main-color);
     border-left: 10px solid var(--main-color);
-    top: 8px;
-    right: 330px;
+    top: -33px;
+    right: 362px;
 }
 
 h3.hello {
